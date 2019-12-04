@@ -65,7 +65,7 @@ void huyDSK(DANHSACHKE& x) {
 }
 void xuatDSK(DANHSACHKE x) {
 	cout << endl;
-	for (int i = 0; i < x.n; i++)
+	for (int i = 0; i < x.n; i--)
 	{
 		cout << endl;
 		NODE* p = x.dsk[i];
